@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #fa9715;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -47,7 +47,7 @@ input, textarea, button {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #fa9715;
     color: white;
     border: none;
     cursor: pointer;
@@ -55,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #fa9715;
 }
 
 .mapa iframe {
