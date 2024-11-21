@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -8,27 +8,10 @@ body {
 }
 
 header {
-    background-color: #0b2b4e;
+    background-color: #007BFF;
     color: white;
     padding: 1rem;
     text-align: center;
-    
-    .contenedor-imagen {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-    }
-    
-    
-    .imagen-circular {
-        width: 70px; 
-        height: 70px; 
-        border-radius: 50%; 
-        margin: 20px; 
-        object-fit: cover; 
-    }
-    
 }
 
 nav {
@@ -64,7 +47,7 @@ input, textarea, button {
 }
 
 button {
-    background-color: #0b2b4e;
+    background-color: #007BFF;
     color: white;
     border: none;
     cursor: pointer;
@@ -72,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #0b2b4e;
+    background-color: #0056b3;
 }
 
 .mapa iframe {
@@ -82,7 +65,15 @@ button:hover {
     border: none;
 }
 
-/* Media Queries: Ajustes para dispositivos móviles */
+
+.imagen-circular {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 20px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 768px) {
     header {
         text-align: center;
@@ -112,7 +103,6 @@ button:hover {
     }
 }
 
-/* Media Queries: Ajustes para pantallas muy pequeñas (teléfonos) */
 @media screen and (max-width: 480px) {
     header {
         font-size: 1.2rem;
