@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Pollo Camba</title>
+    <title>Pollos Camba</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 
 <body>
     <header>
-         <nav>
+        <h1>El pollo Camba</h1>
+        <nav>
+            <div class="contenedor-imagen">
+                <img src="logo.jpeg" alt="Logo Pollo Camba" class="imagen-circular">
+            </div>
+            <nav>
                 <button id="menu-toggle" class="menu-button">☰</button>
                 <ul id="menu" class="menu hidden">
                     <li><a href="#inicio">Inicio</a></li>
@@ -20,12 +25,6 @@
                     <li><a href="#contacto">Contacto</a></li>
                     <li class="user"><a href="#usuario">Usuario</a></li>
                 </ul>
-        </nav>
-        <h1>Pollo Camba</h1>
-        <nav>
-            <div class="logo">
-                <img src="logo.jpeg" alt="Logo Pollo Camba" class="imagen-circular">
-            </div>
         </nav>
     </header>
 
@@ -50,17 +49,7 @@
             <h2>Menú Disponible</h2>
             <img src="Menú 1.jfif" alt="Nuestro equipo trabajando" style="width: 100%; max-width: 600px;">
         </section>
-
-        <section id="galeria">
-
-            <h2>Galería</h2>
-            <div class="galeria">
-                <img src="assets/imagen1.jpg" alt="Imagen 1" style="width: 100%; max-width: 300px;">
-                <img src="assets/imagen2.jpg" alt="Imagen 2" style="width: 100%; max-width: 300px;">
-                <img src="assets/imagen3.jpg" alt="Imagen 3" style="width: 100%; max-width: 300px;">
-            </div>
-        </section>
-        <!-- Sección de Contacto -->
+        
         <section id="contacto">
             <h2>Contáctanos</h2>
             <form id="form-contacto">
@@ -78,7 +67,6 @@
             <p id="respuesta-contacto"></p>
         </section>
 
-        <!-- Sección de Ubicación -->
         <section id="ubicacion">
             <h2>Ubicación</h2>
             <div class="mapa">
@@ -94,7 +82,6 @@
             </div>
         </section>
 
-        <!-- Sección de Registro -->
         <section id="registro">
             <h2>Crear Cuenta</h2>
             <form id="form-registro">
